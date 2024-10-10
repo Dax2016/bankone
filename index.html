@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank One - Your Trusted Banking Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Optional: Add favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/bank-one-logo.png" alt="Bank One Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal.html">Personal Banking</a></li>
+                    <li><a href="business.html">Business Banking</a></li>
+                    <li><a href="online.html">Online Banking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="authLink"><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Bank One</h1>
+                <p>Your trusted partner for all your banking needs.</p>
+                <a href="register.html" class="button">Open an Account</a>
+            </div>
+        </section>
+
+        <!-- User Information Section (Visible if Logged In) -->
+        <section id="userInfo" class="user-info hidden">
+            <h2>Welcome, <span id="usernameDisplay">Customer</span>!</h2>
+            <p>Your Current Balance: $<span id="accountBalance">15,000.00</span></p>
+            <a href="dashboard.html" class="button">Go to Dashboard</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about">
+            <h2>About Bank One</h2>
+            <p>At Bank One, we are committed to providing our customers with top-notch banking services tailored to their unique needs. Whether you're managing personal finances or running a business, we offer a range of solutions to help you achieve your financial goals.</p>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section class="services-overview">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <img src="images/personal-banking.png" alt="Personal Banking" class="service-image">
+                    <h3>Personal Banking</h3>
+                    <p>Manage your personal finances with our comprehensive banking solutions.</p>
+                    <a href="personal.html" class="button">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <img src="images/business-banking.png" alt="Business Banking" class="service-image">
+                    <h3>Business Banking</h3>
+                    <p>Empower your business with our specialized banking services.</p>
+                    <a href="business.html" class="button">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <img src="images/online-banking.png" alt="Online Banking" class="service-image">
+                    <h3>Online Banking</h3>
+                    <p>Access your accounts anytime, anywhere with our secure online platform.</p>
+                    <a href="online.html" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"Bank One has been an invaluable partner in managing our business finances. Their services are reliable and tailored to our needs."</p>
+                    <h4>- Jane Doe, CEO of Tech Solutions</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"The online banking platform is user-friendly and secure. I can manage my accounts effortlessly from anywhere."</p>
+                    <h4>- John Crack, Freelancer</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Exceptional customer service! They helped me navigate through the loan process smoothly."</p>
+                    <h4>- Emily Smith, Small Business Owner</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <h2>Ready to Experience Premium Banking?</h2>
+            <a href="register.html" class="button">Get Started Today</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Bank One</h4>
+                <p>123 Finance Street, Business City, BC 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: support@bankone.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personal.html">Personal Banking</a></li>
+                    <li><a href="business.html">Business Banking</a></li>
+                     <li><a href="business-loans.html">Business Loans</a></li>
+                    <li><a href="online.html">Online Banking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook"><img src="images/facebook-icon.jpeg" alt="Facebook"></a></li>
+                    <li><a href="#" aria-label="Twitter"><img src="images/twitter1-icon.jpeg" alt="Twitter"></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><img src="images/linkedin-icon.jpeg" alt="LinkedIn"></a></li>
+                    <li><a href="#" aria-label="Instagram"><img src="images/instagram-icon.jpeg" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2024 Bank One. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Dynamic Content -->
+    <script src="script.js"></script>
+</body>
+</html>
+
